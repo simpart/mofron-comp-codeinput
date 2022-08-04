@@ -1,0 +1,19 @@
+{
+  "name": "mofron-comp-codeinput",
+  "version": "0.0.1",
+  "description": "code input component for mofron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpart/mofron-comp-codeinput.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simpart/mofron-comp-codeinput/issues"
+  },
+  "homepage": "https://github.com/simpart/mofron-comp-codeinput#readme"
+}
