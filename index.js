@@ -115,7 +115,20 @@ module.exports = class extends mofron.class.Component {
     }
 
     value () {
-        
+        try {
+            let inp_lst  = this.getInput();
+            let ret_code = '';
+            for (let idx in inp_lst) {
+	        if (null === inp_lst[idx].value()) {
+                    continue;
+		}
+                ret_code += inp_lst[idx].value();
+            }
+            return ret_code;
+	} catch (e) {
+            console.error(e.stack);
+            throw e;
+	}
     }
 
     reset () {
